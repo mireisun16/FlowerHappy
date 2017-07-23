@@ -1,0 +1,28 @@
+current directory: /Users/suppin/Desktop/FlowerHappy/vendor/bundle/gems/puma-3.9.1/ext/puma_http11
+/Users/suppin/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20170723-31899-u5gjp9.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /Users/suppin/Desktop/FlowerHappy/vendor/bundle/gems/puma-3.9.1/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /Users/suppin/Desktop/FlowerHappy/vendor/bundle/gems/puma-3.9.1/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+mini_ssl.c:211:27: warning: 'DTLSv1_method' is deprecated [-Wdeprecated-declarations]
+  conn->ctx = SSL_CTX_new(DTLSv1_method());
+                          ^
+/Users/suppin/.rbenv/versions/2.4.1/openssl/include/openssl/ssl.h:1614:45: note: 'DTLSv1_method' has been explicitly marked deprecated here
+DEPRECATEDIN_1_1_0(__owur const SSL_METHOD *DTLSv1_method(void)) /* DTLSv1.0 */
+                                            ^
+1 warning generated.
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+
+current directory: /Users/suppin/Desktop/FlowerHappy/vendor/bundle/gems/puma-3.9.1/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20170723-31899-ci0940/puma

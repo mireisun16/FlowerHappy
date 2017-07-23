@@ -1,0 +1,15 @@
+current directory: /Users/suppin/Desktop/FlowerHappy/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+/Users/suppin/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20170723-31899-rjuqu3.rb extconf.rb
+creating Makefile
+
+current directory: /Users/suppin/Desktop/FlowerHappy/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/suppin/Desktop/FlowerHappy/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/suppin/Desktop/FlowerHappy/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20170723-31899-95n8oe/bindex
