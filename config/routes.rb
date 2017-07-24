@@ -5,10 +5,10 @@ Rails.application.routes.draw do
   passwords:     'users/passwords',
   registrations: 'users/registrations'
 }
-devise_for :admins, controllers: {
-sessions:      'users/sessions',
-passwords:     'users/passwords',
-registrations: 'users/registrations'
+devise_for :admin, controllers: {
+sessions:      'admin/sessions',
+passwords:     'admin/passwords',
+registrations: 'admin/registrations'
 }
 
 end
